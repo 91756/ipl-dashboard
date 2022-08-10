@@ -1,0 +1,35 @@
+/* Write your CSS here */
+.match-card-item {
+  width: 180px;
+  height: 270px;
+  background-color: #0f172a;
+  margin: 5px;
+  border-radius: 9px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.logo-img {
+  width: 60px;
+  height: 60px;
+}
+.team {
+  color: #ffffff;
+  font-size: 14px;
+  font-family: 'Bree Serif';
+}
+.result {
+  color: #ffffff;
+  font-size: 10px;
+  font-family: 'Bree Serif';
+}
+.win-class {
+  color: #18ed66;
+  font-size: 7px;
+}
+.lost-class {
+  color: #e31a1a;
+  font-size: 7px;
+}
