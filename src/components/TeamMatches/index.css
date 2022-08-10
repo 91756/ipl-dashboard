@@ -1,57 +1,69 @@
 /* Write your CSS here */
-.app-cont {
-  background-color: #a4261d;
+.team-matches-container {
   display: flex;
-  flex-direction: column;
   justify-content: center;
-  align-items: center;
-  padding: 15px;
+  min-height: 100vh;
 }
-.banner-img {
-  width: 70vw;
-  height: 25vh;
+
+.rcb {
+  background: linear-gradient(to top, #1e293b, #a4261d);
 }
-.title {
-  color: #ffffff;
-  font-size: 15px;
+
+.kkr {
+  background: linear-gradient(to top, #1e293b, #5755a7);
 }
-.latest-details {
-  width: 70vw;
+
+.kxp {
+  background: linear-gradient(to top, #1e293b, #d91c1f);
 }
-.details {
-  width: 70vw;
-  padding: 10px;
+
+.csk {
+  background: linear-gradient(to top, #1e293b, #f7db00);
+}
+
+.rr {
+  background: linear-gradient(to top, #1e293b, #da237b);
+}
+
+.mi {
+  background: linear-gradient(to top, #1e293b, #13418b);
+}
+
+.srh {
+  background: linear-gradient(to top, #1e293b, #f26d22);
+}
+
+.dc {
+  background: linear-gradient(to top, #1e293b, #4f5db0);
+}
+
+.responsive-container {
+  width: 90%;
+  max-width: 500px;
+  margin-top: 48px;
+}
+
+@media screen and (min-width: 768px) {
+  .responsive-container {
+    margin-top: 96px;
+    max-width: 1110px;
+  }
+}
+
+.team-banner {
+  width: 100%;
+}
+
+.recent-matches-list {
   display: flex;
   justify-content: space-between;
-}
-.details1 {
-  width: 70vw;
-  background-color: #0f172a;
-  padding: 10px;
-}
-.team {
-  font-size: 20px;
-  color: #ffffff;
-  font-family: 'Bree Serif';
-}
-.date {
-  font-size: 15px;
-  color: #ffffff;
-  margin-top: 0px;
-}
-.text {
-  font-size: 12px;
-  color: #ffffff;
-  font-family: 'Bree Serif';
-}
-.img {
-  width: 150px;
-  height: 150px;
-  padding-right: 10px;
-}
-.match-card-list {
-  list-style-type: none;
-  display: flex;
   flex-wrap: wrap;
-  width: 70vw;
+  padding-left: 0;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 768px) {
+  .recent-matches-list {
+    margin-top: 32px;
+  }
 }

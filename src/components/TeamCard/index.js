@@ -4,15 +4,15 @@ import './index.css'
 
 const TeamCard = props => {
   const {teamDetails} = props
-  const {id, name, teamImgUrl} = teamDetails
+  const {name, id, teamImageURL} = teamDetails
 
   return (
-    <Link to={`/team-matches/${id}`} className="team-link">
-      <li className="team-card">
-        <img src={teamImgUrl} className="team-img" alt={name} />
+    <li className="team-item">
+      <Link to={`/team-matches/${id}`} className="link">
+        <img src={teamImageURL} alt={name} className="team-logo" />
         <p className="team-name">{name}</p>
-      </li>
-    </Link>
+      </Link>
+    </li>
   )
 }
 
